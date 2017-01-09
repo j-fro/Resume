@@ -1,5 +1,6 @@
 .top-cover-element {
-    background-color: green;
+    background: url(../images/sanFrancisco.jpg) fixed center no-repeat;
+    background-size: cover;
     position: fixed;
     bottom: 50%;
     height: 50%;
@@ -7,7 +8,8 @@
 }
 
 .center-cover-element {
-    background-color: red;
+    background: url(../images/portrait.jpg) fixed center no-repeat;
+    background-size: contain;;
     position: fixed;
     width: 300px;
     height: 300px;
@@ -24,9 +26,51 @@
 }
 
 .bottom-cover-element {
-    background-color: blue;
+    background: url(../images/minneapolis.jpg) fixed top left no-repeat;
+    background-size: cover;
     position: fixed;
     height: 50%;
     top: 50%;
     width: 100%;
+}
+
+.dummy-nav {
+    padding-top: 5%;
+    height: 10%;
+    width: 100%;
+    display: inline-block;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+    margin: 0;
+}
+
+nav p {
+    display: inline-block;
+    text-align: center;
+    width: 19%;
+    margin: 0;
+    padding: 1% 0;
+}
+
+nav p a {
+    text-decoration: none;
+    color: white;
+}
+
+nav p a:visited {
+    color: white;
+}
+
+nav p:hover {
+    cursor: pointer;
+    background-color: green;
 }

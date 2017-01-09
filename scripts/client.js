@@ -14,4 +14,6 @@ $(document).ready(function() {
         $('.center-cover-element').fadeOut('slow');
         $('.resume').fadeIn('slow');
     });
+
+    $()
 });
