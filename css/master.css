@@ -1,5 +1,5 @@
 .top-cover-element {
-    background: url(../images/sanFrancisco.jpg) fixed center no-repeat;
+    background: url(../images/sanFrancisco_1024.jpg) fixed center no-repeat;
     background-size: cover;
     position: fixed;
     bottom: 50%;
@@ -26,7 +26,7 @@
 }
 
 .bottom-cover-element {
-    background: url(../images/minneapolis.jpg) fixed top left no-repeat;
+    background: url(../images/minneapolis_1024.jpg) fixed top left no-repeat;
     background-size: cover;
     position: fixed;
     height: 50%;
