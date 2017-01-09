@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 .top-cover-element {
     background: url(../images/sanFrancisco_1024.jpg) fixed center no-repeat;
     background-size: cover;
@@ -9,7 +11,7 @@
 
 .center-cover-element {
     background: url(../images/portrait.jpg) fixed center no-repeat;
-    background-size: contain;;
+    background-size: contain;
     position: fixed;
     width: 300px;
     height: 300px;
@@ -43,6 +45,7 @@
 
 body {
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav {
@@ -72,5 +75,17 @@ nav p a:visited {
 
 nav p:hover {
     cursor: pointer;
+    background-color: green;
+}
+
+.resume {
+    display: none;
+}
+
+.resume-section {
+    margin: 0 20px 20px 20px;
+}
+
+.selected {
     background-color: green;
 }
