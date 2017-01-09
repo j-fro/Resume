@@ -37,7 +37,7 @@
 }
 
 .dummy-nav {
-    padding-top: 5%;
+    padding-top: 4%;
     height: 10%;
     width: 100%;
     display: inline-block;
@@ -51,31 +51,34 @@ body {
 nav {
     position: fixed;
     width: 100%;
-    background-color: black;
-    border: 1px solid black;
+    background-color: #a26161;
     margin: 0;
 }
 
 nav p {
     display: inline-block;
     text-align: center;
-    width: 19%;
+    width: 19.6%;
     margin: 0;
     padding: 1% 0;
 }
 
 nav p a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 nav p a:visited {
-    color: white;
+    color: black;
 }
 
 nav p:hover {
     cursor: pointer;
-    background-color: green;
+    background-color: #7b0909;
+}
+
+nav p:hover a {
+    color: white;
 }
 
 .resume {
@@ -86,6 +89,10 @@ nav p:hover {
     margin: 0 20px 20px 20px;
 }
 
-.selected {
-    background-color: green;
+p.selected {
+    background-color: #7b0909;
+}
+
+nav p.selected a {
+    color: white;
 }
