@@ -37,6 +37,7 @@
 }
 
 .dummy-nav {
+    top: 0;
     padding-top: 4%;
     height: 10%;
     width: 100%;
@@ -48,14 +49,22 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-nav {
+header, footer {
     position: fixed;
     width: 100%;
     background-color: #a26161;
     margin: 0;
 }
 
-nav p {
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0%;
+}
+
+nav p, nav h3 {
     display: inline-block;
     text-align: center;
     width: 19.6%;
@@ -63,46 +72,48 @@ nav p {
     padding: 1% 0;
 }
 
-nav p a {
+nav a {
     text-decoration: none;
     color: black;
 }
 
-nav p a:visited {
+nav a:visited {
     color: black;
 }
 
-nav p:hover {
+nav p:hover, nav a:hover {
     cursor: pointer;
     background-color: #7b0909;
-}
-
-nav p:hover a {
     color: white;
 }
+
+/*nav p:hover {
+    color: white;
+}*/
 
 .resume {
     display: none;
 }
 
 .resume-section {
-    margin: 0 20px 20px 20px;
+    margin: 0 20px 10% 20px;
 }
 
-p.selected {
+p.selected, nav h3 {
     background-color: #7b0909;
-}
-
-nav p.selected a {
     color: white;
 }
 
-#contact p a, #contact p a:visited {
+nav a p.selected {
+    color: white;
+}
+
+#contact a p, #contact a p:visited {
     color: black;
     text-decoration: none;
 }
 
-#contact p a:hover {
+#contact a:hover {
     color: #7b0909;
 }
 

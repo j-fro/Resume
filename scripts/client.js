@@ -18,9 +18,9 @@ $(document).ready(function() {
     });
 
     $('.section-link').on('click', function() {
-        var sectionId = $(this).children().first().attr('href');
+        var sectionId = $(this).attr('href');
         $('.selected').toggleClass('selected');
-        $(this).toggleClass('selected');
+        $(this).children().first().toggleClass('selected');
         $('.current-section').fadeOut(100, function() {
             $(sectionId).fadeIn(100);
         });
