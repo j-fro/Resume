@@ -75,21 +75,19 @@ nav p, nav h3 {
 nav a {
     text-decoration: none;
     color: black;
+    margin: 0;
+    padding: 0;
 }
 
 nav a:visited {
     color: black;
 }
 
-nav p:hover, nav a:hover {
+nav p:hover {
     cursor: pointer;
     background-color: #7b0909;
     color: white;
 }
-
-/*nav p:hover {
-    color: white;
-}*/
 
 .resume {
     display: none;
@@ -108,7 +106,7 @@ nav a p.selected {
     color: white;
 }
 
-#contact a p, #contact a p:visited {
+#contact a, #contact a:visited {
     color: black;
     text-decoration: none;
 }

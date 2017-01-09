@@ -21,8 +21,11 @@ $(document).ready(function() {
         var sectionId = $(this).attr('href');
         $('.selected').toggleClass('selected');
         $(this).children().first().toggleClass('selected');
-        $('.current-section').fadeOut(100, function() {
-            $(sectionId).fadeIn(100);
+        // $('.current-section').fadeOut(100, function() {
+        //     $(sectionId).fadeIn(100);
+        // });
+        $('.current-section').hide(function() {
+            $(sectionId).show();
         });
         $('.current-section').animate({
             right: '500px'
