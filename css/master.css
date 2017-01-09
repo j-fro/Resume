@@ -96,3 +96,16 @@ p.selected {
 nav p.selected a {
     color: white;
 }
+
+#contact p a, #contact p a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#contact p a:hover {
+    color: #7b0909;
+}
+
+#contact p i {
+    width: 4%;
+}
